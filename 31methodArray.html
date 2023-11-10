@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //method filter
+        const angka=[1,2,3,4,5,6,7,8,9];
+        const filteredArray=angka.filter((item) => {return item % 2===0});
+        //menampilkan data angka yang habis dibagi 2
+        document.write(filteredArray);
+        document.write("<br>");
+        const filteredArray1=angka.filter((item) => {return item % 2===1});
+        document.write(filteredArray1);
+
+    </script>
+</body>
+</html>
